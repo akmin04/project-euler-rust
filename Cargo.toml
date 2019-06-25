@@ -1,0 +1,9 @@
+[package]
+name = "project_euler"
+version = "0.1.0"
+authors = ["Andy Min <andrewkmin@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+time = "0.1.42"
+colored = "1.8"
