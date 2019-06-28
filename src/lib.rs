@@ -59,7 +59,7 @@ impl Solution {
             },
             duration: end - start,
             expect: expect.unwrap_or(String::new()),
-            actual: actual,
+            actual,
         }
     }
 }
