@@ -77,7 +77,7 @@ impl Display for Solution {
             },
             self.duration,
             match &self.result {
-                Result::Pass => String::new(),
+                Result::Pass => format!(" | {}", self.actual.to_string()),
                 Result::Fail => format!(
                     " | Expect: {}, Actual: {}",
                     self.expect,
